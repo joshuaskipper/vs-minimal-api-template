@@ -9,5 +9,6 @@ namespace WebApplication1.Data
         }
 
 
+        //public DbSet<WeatherForecast> WeatherForecasts { get; set; }
     }
 }
