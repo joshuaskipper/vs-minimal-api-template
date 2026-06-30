@@ -19,22 +19,25 @@ Visual Studio project template for rapid setup and configuration for .NET Minima
 
 ## 🛠️ How to Install and Use
 
-Since this is a custom Visual Studio template, you can add it to your local environment in just a few steps:
+Since this is a custom Visual Studio template repository, you can generate and install it into your local environment in just a few quick steps:
 
-### 1. Download the Template
-Download the `.zip` archive of this template from the [Releases](../../releases) section (or zip up the project folder yourself).
+### 1. Clone this Repository
+Clone this repository to your local machine and open the `.slnx` (or `.sln`) file in **Visual Studio**.
 
-### 2. Move to Visual Studio Templates Folder
-Place the `.zip` file directly into your user templates directory. Do **not** unzip it.
-* **Path:** `C:\Users\<Your-Username>\Documents\Visual Studio 2022\Templates\ProjectTemplates`
+### 2. Export the Template
+1. In the top menu bar, click on **Project** > **Export Template...**.
+2. Leave **Project template** selected and choose your project from the dropdown, then click **Next**.
+3. (Optional) Customize your template name, icon, or description, and ensure the checkbox for **"Automatically import the template into Visual Studio"** is checked.
+4. Click **Finish**. Visual Studio will automatically build the `.zip` file and drop it straight into your local user templates folder for you!
 
-### 3. Create a New Project
-1. Open **Visual Studio 2022**.
+### 3. Create Your New Project
+1. Restart or open a new instance of **Visual Studio**.
 2. Click **Create a new project**.
-3. Search for `vs-minimal-api-template` (or whatever you named it in the metadata).
-4. Name your project, hit **Create**, and start coding!
+3. Search for `vs-minimal-api-template` (or the custom name you gave it).
+4. Name your new API, hit **Create**, and start coding!
 
 ---
 
-##  License
+## 📝 License
+
 This project is licensed under the MIT License - feel free to use it for personal or commercial projects!
