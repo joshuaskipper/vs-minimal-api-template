@@ -17,7 +17,7 @@ Visual Studio project template for rapid setup and configuration for .NET Minima
 * **Pre-configured** `launchSettings.json` with `launchUrl: "scalar/v1"`, launching you directly into your interactive API documentation the second the application starts.
 ---
 
-## 🛠️ How to Install and Use
+## How to Install and Use
 
 Since this is a custom Visual Studio template repository, you can generate and install it into your local environment in just a few quick steps:
 
@@ -38,6 +38,5 @@ Clone this repository to your local machine and open the `.slnx` (or `.sln`) fil
 
 ---
 
-## 📝 License
-
+## License
 This project is licensed under the MIT License - feel free to use it for personal or commercial projects!
